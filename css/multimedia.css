@@ -1,0 +1,51 @@
+section.wrapper{
+	padding: 0;
+}
+
+section.wrapper div.top, section.wrapper div.bottom{
+	height: 50px;
+	background: #25A294;
+}
+
+.wrapper div.multi{
+	width: 90%;
+	margin: 20px auto;
+}
+	
+	div.multi h1{
+		width: 80%;
+		margin: 30px auto 20px;
+		padding: 10px 0;
+		background: #C8E6C9;
+		color: #088;
+		font-family: Cambria;
+		font-size: 27px;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	div.multi .play{
+		width: 80%;
+		margin: 20px auto;
+		padding: 15px 0;
+		text-align: center;
+		background: #FFF;
+		box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+	}
+
+		.multi .play a{
+			font-size: 24px;
+			font-weight: 400;
+			text-decoration: none;
+			color: #25A294;
+			transition: all linear 0.25s;
+		}
+
+		.multi .play a:hover{
+			color: #C8E6C9;
+			transition: all linear 0.25s;
+		}
+
+		.play audio, .play video{
+			box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+		}

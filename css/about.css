@@ -1,0 +1,107 @@
+/*=== MAIN SECTION - ABOUT US PAGE ===*/
+section.wrapper .image2{
+	width: 95%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0;
+
+	background-image: url('../image/web-design1.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+	
+	background-color: #5B5B5B;
+    background-blend-mode: darken;
+}
+
+	.image2 h2{
+		position: relative;
+		top: 35%;
+		transform: translateY(-50%);
+		color: #E7E7E7;
+	}
+
+div.about-main{
+	width: 95%;
+	margin: 20px auto;
+}
+	
+	.about-main .main{
+		display: inline-block;
+	}
+
+	/*== LEFT SIDEBAR {ABOUT US QUICKLINKS} ==*/
+	.about-main .about-sidebar{
+		padding: auto 20px auto 0; 
+		vertical-align: top;
+	}
+		
+		/*== Contacts ==*/
+		.about-sidebar .about-contact{
+			margin-top: 20px;
+			padding-left: 10px;
+			background: #BBDEFB;
+		}	
+
+			.about-contact p.contact{
+				font-weight: 400;
+				color: #555;
+				text-shadow: 1px 1px 1px #D5D5D5;
+				margin: 10px auto;
+			}
+
+		/*== QUICKLINKS ==*/
+		.about-sidebar .quicklinks{
+			margin-top: 20px;
+			padding: 0 0 15px 10px;
+			background: #E0F2F1;
+		}
+			
+			.quicklinks h5.abt{
+				color: #25A294;
+				padding-top: 10px;
+				font-weight: 400;
+			}
+
+			.quicklinks ul{
+				margin: 10px 20px 0 0;
+			}
+
+				.quicklinks li{
+					display: block;
+				}	
+
+					.quicklinks li a{
+						text-decoration: none;
+						padding: 7px 0 7px 20px;
+						display: block;
+						color: #2196F3;
+						font-size: 15px;
+                        transition: all linear 0.25s;
+					}
+
+					.quicklinks li a:hover, 
+					.quicklinks li a:focus,
+					.quicklinks li a:active{
+						background: #fff;
+						color: green;
+                        transition: all linear 0.25s;
+					}
+
+				ul.services li{
+					margin-left: 20px;
+					display: list-item;
+					list-style: square inside none;
+				}
+
+	
+	/*== RIGHT SIDEBAR {ABOUT US-CONTENT} ==*/
+	.about-main .about-sidebar{width: 28%; margin-right: 2%;}
+	.about-main .about-content{width: 67%; margin-left: 2%;}
+
+		.about-content p.stud{
+			margin-top: 20px;
+			font-weight: 500;
+			//color: #F2695A;
+		}

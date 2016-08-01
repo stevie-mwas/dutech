@@ -1,0 +1,31 @@
+/*=== MAIN SECTION - HOME PAGE ===*/
+section.wrapper .image{
+	width: 95%;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0;
+}
+
+	.image img{
+		display: inline-block;
+		width: 100%;
+	}
+
+/*== CONTENT 1 STYLING ==*/
+div.cont{
+	width: 95%;
+	margin: 10px auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+	.div3{
+		background: #E0F2F1;
+	}
+
+	.div3 div{
+		width: 30%;
+		margin: 0 1% 15px;
+		display: inline-block;
+		vertical-align: top;
+	}
